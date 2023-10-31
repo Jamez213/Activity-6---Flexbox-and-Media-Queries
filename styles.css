@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    background-color: rgb(197, 194, 190);
+    font-size: 3.5em;
+    border-radius: 2em;
+    padding: .3em;
+}
+
+body {
+    background-color:rgb(252, 251, 251);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.main-container {
+    border-radius: .5em;
+    background-color:darkslategray;
+    width: fit-content;
+    margin:auto;
+    border-radius: .3em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.flex-item1 {
+    display: flex;
+    font-size: 5em;
+    background-color: cadetblue;
+    margin: .1em;
+    padding: .3em;
+    height: 1.5em;
+    width: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: .3em;
+    
+}
+.flex-item2 {
+    display: flex;
+    font-size: 5em;
+    background-color: cadetblue;
+    margin: .1em;
+    padding: .3em;
+    height: 1.8em;
+    width: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: .3em;
+    
+}
+.flex-item3 {
+    display: flex;
+    font-size: 5em;
+    background-color: cadetblue;
+    margin: .1em;
+    padding: .3em;
+    height: 1.5em;
+    width: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: .3em;
+    
+}
+
+.flex-item1:hover {
+    background-color: coral;
+}
+.flex-item2:hover {
+    background-color: coral;
+}
+.flex-item3:hover {
+    background-color: coral;
+}
