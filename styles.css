@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     background-color: rgb(197, 194, 190);
     font-size: 3.5em;
-    border-radius: 2em;
+    border-radius: .3em;
     padding: .3em;
 }
 
@@ -74,4 +74,10 @@ body {
 }
 .flex-item3:hover {
     background-color: coral;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
 }
